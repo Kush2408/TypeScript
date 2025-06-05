@@ -11,3 +11,10 @@ function signUpUser(name, email, password) { }
 signUpUser("John", "john@234", 123);
 let loginUser = (name, email, isPaid = false) => { };
 loginUser("John", "John11@gmail.com");
+const getHello = (h) => {
+    return "Get Hello";
+};
+const names = ["John", "Sop", "Alice"];
+names.map((name) => {
+    return `name is ${names}`;
+});
